@@ -1,0 +1,2 @@
+# keep the submitted CSV byte-identical on every platform (its SHA-256 is recorded in code/evaluation/submitted_output.sha256)
+output.csv -text

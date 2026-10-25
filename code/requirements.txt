@@ -1,0 +1,5 @@
+# Python 3.12. Everything else is the standard library (sqlite3, urllib, concurrent.futures, ...).
+pypdf>=5.1          # PDF text layer
+PyMuPDF>=1.24       # only to render a scanned PDF page for the vision path (none in this dataset)
+rapidocr-onnxruntime>=1.4.4   # local OCR of the screenshots (pulls numpy and opencv-python)
+pytest>=8.0         # unit tests in code/tests (not needed to produce output.csv)
